@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using NUnit.Framework;
 
 namespace Anagram.Test
@@ -10,9 +11,10 @@ namespace Anagram.Test
         }
 
         [Test]
-        public void Test1()
+        public void NoCharacters()
         {
-            Assert.Pass();
+            var expected = new List<string> { "" };
+            Assert.That(Anagrams.Of(""), Is.EqualTo(expected));
         }
     }
 }
