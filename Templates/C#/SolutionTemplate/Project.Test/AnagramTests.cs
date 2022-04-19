@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace Project.Test
+namespace Anagram.Test
 {
-    public class ProjectTests
+    public class AnagramTests
     {
         [SetUp]
         public void Setup()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Project
+namespace Anagram
 {
     class Program
     {
